@@ -1,0 +1,21 @@
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px; /* to make borders rounds but only work if collapse is not used */
+    border-style: dotted ;
+}
+table{
+    width: 80% ;
+}
+th,td{
+    padding: 15px;
+}
+tr:nth-child(odd) {             /* zebra tripes,works best without borders */
+    background-color: blue;
+}
+tr{
+    border-bottom:  1px solid black;    /* works when there r no borders,a line below every row */
+}
+tr:hover{           /* effect on scrolling on rows */
+background-color: red;
+}

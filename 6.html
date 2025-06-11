@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>link colors</title>
+        <style>
+            a:link{
+                color: blue;
+                background-color: transparent ;  /* not necessary here as its by default */
+                text-decoration: none;     /* needed,cos by deafault links r underlined */
+            }
+            a:visited{
+                color:red;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:hover{   /* hover means when u place cursor on link n it changes */
+                color: purple;
+                text-decoration: underline;
+            }
+            a:active{  /* when clicked */
+                color: pink;
+                text-decoration: underline;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1> here is the link </h1>
+        <a href="https://www.youtube.com/results?search_query=extensions+for+web+development+in+vscode" target="_blank"> visit link</a>
+    </body>
+</html>
+

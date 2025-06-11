@@ -1,0 +1,13 @@
+li{
+    float: left;
+}
+a{
+    color: blue;
+    padding: 15px;
+    text-align: center;
+
+}
+a:hover
+{
+    background-color: red;
+}

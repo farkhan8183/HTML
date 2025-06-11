@@ -1,0 +1,7 @@
+div{
+    background-color: yellow;
+    margin:auto; /* to center them */
+    width: 300px;
+    /* float: left;         if wanted div containers to be side by side*/ */
+
+}
