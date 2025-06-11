@@ -16,5 +16,6 @@ This repository includes 25 HTML concept examples and a mini HTML project.
 ...and more!
 
 
- How to Use
+ How to Use:
+
 Just clone the repo and open `.html` files in your browser.
